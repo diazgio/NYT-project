@@ -15,6 +15,19 @@ header {
     border-bottom: 1px solid rgb(189, 187, 187);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    width: 1170px;
+    margin: 0 85px 0 85px;
+}
+
+aside {
+    float: right;
+}
+
 /*-----------------------------Header-------------------------------*/
 .header-title h1 {
     font-size: 28px;
@@ -40,3 +53,15 @@ header {
 .header-menu:hover, .header-btns button:hover, .header-title:hover {
     cursor: pointer;
 }
+
+/*--------------------------Main------------------------------*/
+
+.article-title-container {
+    width: 982px;
+    padding: 40px 20px 20px 30px;
+}
+.article-title-container p {
+    text-align: start;
+}
+
+/*------------------------Editor's Picks----------------------*/
