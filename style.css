@@ -7,16 +7,36 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 15px 0 15px;
+    padding: 4px 15px 2px 15px;
+    height: 36px;
+    width: auto;
+    align-items: center;
+    border-top: 1px solid rgb(189, 187, 187);
+    border-bottom: 1px solid rgb(189, 187, 187);
 }
 
 /*-----------------------------Header-------------------------------*/
+.header-title h1 {
+    font-size: 28px;
+}
 
-.header-btns {
-    background-color: blue;
+.header-btns button {
+    background-color: #567b95;
     color: white;
-    border-radius: 2px;
+    border-radius: 4px;
     border: none;
-    width: 150px;
+    width: fit-content;
     height: 35px;
+    padding: 0 15px 0 15px;
+    
+    
+}
+.header-menu img {
+    width: 16px;
+    height: 16px;
+    padding: 8px 9px 9px 9px;
+}
+
+.header-menu:hover, .header-btns button:hover, .header-title:hover {
+    cursor: pointer;
 }
