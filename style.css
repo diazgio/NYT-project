@@ -1,3 +1,22 @@
+/*-----------------------General Styles--------------------------*/
 * {
     margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px 0 15px;
+}
+
+/*-----------------------------Header-------------------------------*/
+
+.header-btns {
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 150px;
+    height: 35px;
 }
