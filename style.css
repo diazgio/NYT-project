@@ -145,6 +145,13 @@
     text-align: end;
     width: 50%;
 }
+
+.article-footer-title h5, .article-footer-title a{
+    color: rgb(138, 134, 134);
+    font-size: 12px;
+    font-family: helvetica;
+    font-weight: normal;
+}
 /*---------------------------Recommended videos------------------------*/
 
 .recommended-articles-containner {

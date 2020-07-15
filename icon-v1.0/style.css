@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'share-icon';
+  src:  url('fonts/share-icon.eot?u1aqoq');
+  src:  url('fonts/share-icon.eot?u1aqoq#iefix') format('embedded-opentype'),
+    url('fonts/share-icon.ttf?u1aqoq') format('truetype'),
+    url('fonts/share-icon.woff?u1aqoq') format('woff'),
+    url('fonts/share-icon.svg?u1aqoq#share-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'share-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forward:before {
+  content: "\e900";
+}
+.icon-mail:before {
+  content: "\e901";
+}
+.icon-facebook-with-circle:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
