@@ -80,12 +80,20 @@
     text-align: start;
 }
 
-.recommended-articles{
+.recommended-articles {
+    height: 1017px;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 70% 30%;
-
+    padding-top: 32px;
 }
+/*---------------------------Recommended videos------------------------*/
+
+.recommended-articles-containner {
+    border: 1px solid blue;
+}
+
+
 .more {
     display: flex;
     flex-wrap: wrap;
@@ -95,6 +103,15 @@
     grid-row-end: 2;
     justify-content: space-evenly;
 }
+.more-title {
+    text-align: start;
+    padding-left: 32px;
+}
+.more-title a {
+    text-decoration: none;
+    color: black;
+}
+
 .img-conatiner img {
     width: 232px;
     height: 181px;
@@ -116,12 +133,11 @@
 }
 
 .more-article-container {
-    border: 1px solid red;
     width: 232px;
     margin: 5px;
     height: calc(50%-10px);
 }
-
+/*-----------------Most popular list----------------------------------*/
 .most-popular {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -129,24 +145,47 @@
     grid-row-end: 3;
 }
 
+.most-popular-container {
+    text-align: start;
+    padding: 10px;
+    border-top: 1px lightgray solid;
+}
+
+.most-popular-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.most-popular-container p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
 
 /*------------------------Editor's Picks----------------------*/
 
 .Editors-picks {
-    border: black solid 1px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    
+}
+
+.Editors-picks-title {
+    text-align: start;
+    padding-left: 32px;
 }
 
 .Editors-picks-videos {
     display: flex;
     height: fit-content;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 90%;
 }
 
 .editors-videos {
-    border: 1px solid green;
     width: 232px;
 }
 
