@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,17 +15,12 @@ header {
     border-bottom: 1px solid rgb(189, 187, 187);
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    text-align: center;
-    width: 1170px;
-    margin: 0 85px 0 85px;
+.main {
+    align-items: center;
 }
 
-aside {
-    float: right;
+.footer{
+    clear: both;
 }
 
 /*-----------------------------Header-------------------------------*/
@@ -55,6 +50,19 @@ aside {
 }
 
 /*--------------------------Main------------------------------*/
+
+.main-containner {
+    width: 1175px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 20em;
+}
+
+.editor-picks {
+    float: right;
+    border: 1px solid red;
+    margin-top: 100em;
+}
 
 .article-title-container {
     width: 982px;
