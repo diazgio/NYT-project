@@ -16,11 +16,15 @@
 }
 
 .main {
-    align-items: center;
+    text-align: center;
+    
 }
 
 .footer{
     clear: both;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 }
 
 /*-----------------------------Header-------------------------------*/
@@ -55,7 +59,11 @@
     width: 1175px;
     border: 1px solid red;
     float: left;
-    margin-left: 20em;
+    text-align: center;
+    margin: auto;
+}
+.article-container {
+    margin: 20px 190px 0;
 }
 
 .editor-picks {
@@ -73,3 +81,29 @@
 }
 
 /*------------------------Editor's Picks----------------------*/
+
+/*------------------------Footer------------------------------*/
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.footer-title a {
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.footer-disclaimer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 5px;
+}
+
