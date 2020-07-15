@@ -96,15 +96,30 @@
     justify-content: space-evenly;
 }
 .img-conatiner img {
-    width: 272px;
+    width: 232px;
     height: 181px;
 }
 
+.img-conatiner h6 {
+    text-align: end;
+    color: gray;
+    font-weight: normal;
+}
+
+.img-description {
+    text-align: start;
+}
+
+.img-description h6 {
+    color: grey;
+    font-weight: normal;
+}
 
 .more-article-container {
     border: 1px solid red;
-    width: 272px;
-    padding: 5px;
+    width: 232px;
+    margin: 5px;
+    height: calc(50%-10px);
 }
 
 .most-popular {
@@ -114,15 +129,27 @@
     grid-row-end: 3;
 }
 
+
+/*------------------------Editor's Picks----------------------*/
+
 .Editors-picks {
-    display: flex;
+    border: black solid 1px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-/*------------------------Editor's Picks----------------------*/
+.Editors-picks-videos {
+    display: flex;
+    height: fit-content;
+}
+
+.editors-videos {
+    border: 1px solid green;
+    width: 232px;
+}
+
 
 /*------------------------Footer------------------------------*/
 .nav-container {
