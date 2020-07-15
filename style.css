@@ -56,7 +56,7 @@
 /*--------------------------Main------------------------------*/
 
 .main-containner {
-    width: 1175px;
+    width: 1200px;
     border: 1px solid red;
     float: left;
     text-align: center;
@@ -78,6 +78,48 @@
 }
 .article-title-container p {
     text-align: start;
+}
+
+.recommended-articles{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 70% 30%;
+
+}
+.more {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-content: space-evenly;
+}
+.img-conatiner img {
+    width: 272px;
+    height: 181px;
+}
+
+
+.more-article-container {
+    border: 1px solid red;
+    width: 272px;
+    padding: 5px;
+}
+
+.most-popular {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Editors-picks {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 /*------------------------Editor's Picks----------------------*/
