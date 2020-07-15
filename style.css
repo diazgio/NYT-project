@@ -4,19 +4,14 @@
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4px 15px 2px 15px;
-    height: 36px;
-    width: auto;
-    align-items: center;
-    border-top: 1px solid rgb(189, 187, 187);
-    border-bottom: 1px solid rgb(189, 187, 187);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .main {
     text-align: center;
+    margin-top: 36px;
 }
 
 .footer{
@@ -25,13 +20,29 @@
     flex-direction: column;
     margin: 5px;
     width: 1200px;
+    text-align: center;
 }
 
 /*-----------------------------Header-------------------------------*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 15px 2px 15px;
+    height: 36px;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid rgb(189, 187, 187);
+    border-bottom: 1px solid rgb(189, 187, 187);
+    background-color: white;
+}
 .header-title h1 {
     font-size: 28px;
 }
 
+.header-btns {
+    margin: 0 30px 0 0;
+}
 .header-btns button {
     background-color: #567b95;
     color: white;
@@ -40,9 +51,8 @@
     width: fit-content;
     height: 35px;
     padding: 0 15px 0 15px;
-    
-    
 }
+
 .header-menu img {
     width: 16px;
     height: 16px;
@@ -86,6 +96,54 @@
     grid-template-columns: 70% 30%;
     grid-template-rows: 70% 30%;
     padding-top: 32px;
+}
+
+/*----------------------------Article Header-----------------------------*/
+
+.article-header {
+    text-align: start;
+    margin: 10px 0 10px 0;
+    width: 600px;
+}
+.article-header-data {
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.article-header-date {
+    width: 30%;
+}
+.article-header-icons {
+    text-align: end;
+    width: 70%;
+}
+
+/*----------------------------Article Body--------------------------------*/
+
+.article-body {
+    text-align: justify;
+    width: 600px;
+}
+
+/*-----------------------------Article Footer-----------------------------*/
+.article-footer {
+    text-align: start;
+    margin: 10px 0 10px 0;
+    width: 600px;
+}
+
+.article-footer-data {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.article-footer-btn {
+    
+    width: 50%;
+}
+.article-footer-icons {
+    text-align: end;
+    width: 50%;
 }
 /*---------------------------Recommended videos------------------------*/
 
