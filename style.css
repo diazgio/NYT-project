@@ -18,7 +18,7 @@
     clear: both;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 5px auto 5px auto;
     width: 1200px;
     text-align: center;
 }
@@ -44,8 +44,9 @@ p {
     border-bottom: 1px solid rgb(189, 187, 187);
     background-color: white;
 }
-.header-title h1 {
-    font-size: 28px;
+.header-title img {
+    width: 205px;
+    height: 45px;
 }
 
 .header-btns {
@@ -114,11 +115,12 @@ p {
 }
 
 .recommended-articles {
-    height: 1017px;
+    height: 990px;
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 60% 40%;
     padding-top: 32px;
+    column-gap: 10px;
 }
 
 /*----------------------------Article Header-----------------------------*/
@@ -182,15 +184,61 @@ p {
 .article-body {
     text-align: justify;
     width: 600px;
-    padding: 10px 15% 10px 15%;
+    padding: 20px 20% 20px 19%;
+}
+
+.inflation-header {
+    text-align: start;
+    margin: 5px 0 10px 0;
+}
+
+.inflation-header h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.inflation-header p {
+    padding: 0 50px 0 0;
+    font-size: 14px;
+    color: #837d7d;
+    line-height: normal;
+}
+
+.inflation-footer {
+    text-align: start;
+    padding-top: 20px;
+}
+.inflation-footer h3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #505050;
 }
 
 .video-container {
     text-align: center;
     width: 600px;
-    margin: 0;
+    margin: auto;
 }
 
+.video-container h4 {
+    font-size: 14px;
+    text-align: start;
+    line-height: normal;
+    color: #979292;
+}
+
+.image-container {
+    margin: auto;
+    width: 600px;
+}
+
+.image-container p {
+    font-size: 14px;
+    text-align: start;
+    line-height: normal;
+    color: #979292;
+}
 /*-------------------------------Aside Editor's Picks-----------------------*/
 
 .editor-picks {
@@ -272,10 +320,13 @@ p {
     font-family: helvetica;
     font-weight: normal;
 }
-/*---------------------------Recommended videos------------------------*/
+/*---------------------------Recommended Articles------------------------*/
 
-.recommended-articles-containner {
-    border: 1px solid blue;
+.recommended-articles-containner hr {
+    width: 770px;
+    height: 2px;
+    margin: 0 5px 20px 31px; 
+    background-color: black;
 }
 
 
@@ -295,6 +346,10 @@ p {
 .more-title a {
     text-decoration: none;
     color: black;
+}
+
+.more-title h4 {
+    padding: 0 0 20px 0;
 }
 
 .img-conatiner img {
@@ -329,11 +384,21 @@ p {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+.most-popular hr {
+    width: 350px;
+    height: 2px;
+    margin: 0 5px 20px 0px; 
+    background-color: black;
+}
 
 .most-popular-container {
     text-align: start;
     padding: 10px;
     border-top: 1px lightgray solid;
+}
+
+.most-popular h3 {
+    padding: 0 0 20px 0;
 }
 
 .most-popular-container a{
@@ -357,16 +422,23 @@ p {
     
 }
 
+.Editors-picks hr {
+    width: 770px;
+    height: 2px;
+    margin: 0 5px 20px 31px; 
+    background-color: black;
+}
+
 .Editors-picks-title {
     text-align: start;
     padding-left: 32px;
+    padding-bottom: 20px;
 }
 
 .Editors-picks-videos {
     display: flex;
     height: fit-content;
     justify-content: space-evenly;
-    border: 1px solid black;
     height: 90%;
 }
 
@@ -390,6 +462,11 @@ p {
     margin: 10px 0 0 0;
     border-top: lightgray;
     border-top-style: double;
+}
+
+.footer-title img {
+    width: 184px;
+    height: 44px;
 }
 
 .footer-title a {
@@ -439,6 +516,9 @@ p {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+.subscribe-nav {
+    text-align: start;
 }
 .subscribe-nav ul {
     list-style: none;
