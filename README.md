@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://diazgio.github.io/Mint-singup-project/)
+[Live Demo Link](https://diazgio.github.io/NYT-project/)
 
 
 ## Getting Started
