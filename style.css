@@ -141,8 +141,9 @@ p {
     text-decoration-color: lightgray;
 }
 
-.article-header a:hover {
+.article-header a, .article-header-icons img:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .article-header-data {
@@ -216,7 +217,7 @@ p {
 }
 
 .inflation-footer hr {
-    margin-left: 0;
+    margin-bottom: 15px;
 }
 
 .video-container {
@@ -245,9 +246,10 @@ p {
 }
 
 
-.article-container hr {
-    margin-left: 460px;
+.unlock-articles hr {
+    margin: 15px 0 15px 460px;
     width: 70px;
+    
 }
 
 .unlock-articles {
@@ -264,8 +266,8 @@ p {
 
 .editor-picks {
     position: absolute;
-    right: 350px;
-    top: 1900px;
+    right: 7rem;
+    top: 115rem;
     float: right;
 }
 
