@@ -185,11 +185,7 @@ p {
   padding: 0 5px;
 }
 
-.article-header a,
-.article-header-icons img:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
+
 
 /* ----------------------------Article Body-------------------------------- */
 
@@ -376,7 +372,7 @@ p {
 .article-footer-title a {
   color: rgb(138, 134, 134);
   font-size: 12px;
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
 
@@ -436,7 +432,7 @@ p {
 .more-article-container {
   width: 232px;
   margin: 5px;
-  height: calc(50%-10px);
+  height: calc(50% - 10px);
 }
 
 /* -----------------Most popular list---------------------------------- */
@@ -499,7 +495,6 @@ p {
 
 .Editors-picks-videos {
   display: flex;
-  height: fit-content;
   justify-content: space-evenly;
   height: 90%;
 }
@@ -625,4 +620,12 @@ p {
   color: gray;
   font-size: 12px;
   text-decoration: none;
+}
+
+/* -------------hovers------------------------- */
+
+.article-header a:hover,
+.article-header-icons img:hover {
+  text-decoration: none;
+  cursor: pointer;
 }
