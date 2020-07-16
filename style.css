@@ -30,6 +30,7 @@ p {
     line-height: 2rem;
 }
 
+
 /*-----------------------------Header-------------------------------*/
 .header-container {
     display: flex;
@@ -90,8 +91,26 @@ p {
     width: 982px;
     padding: 40px 20px 20px 30px;
 }
+.article-title-container-h {
+    width: 600px;
+    text-align: start;
+    margin: 0px 45% 20px 20%;
+}
+.article-title-container-h h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+}
+
 .article-title-container p {
     text-align: start;
+}
+
+.image p{
+    font-size: 14px;
+    padding: 0px 250px 0px 0px;
+    line-height: normal;
+    color: #979292;
 }
 
 .recommended-articles {
@@ -109,19 +128,55 @@ p {
     margin: 10px 0 10px 0;
     width: 600px;
 }
+
+.article-header h2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.article-header a {
+    color: black;
+    text-decoration-color: lightgray;
+}
+
+.article-header a:hover {
+    text-decoration: none;
+}
+
 .article-header-data {
     display: flex;
+    align-items: center;
     margin: 20px 0 0 0;
 }
 
 .article-header-date {
     width: 30%;
 }
+.article-header-date h5 {
+    color: #5c5b5b;
+    font-weight: normal;
+}
 .article-header-icons {
-    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 70%;
 }
+.article-header-icons a {
+    text-decoration: none;
+    color: #837d7d;
+}
 
+.article-header-icons img {
+    width: 27px;
+    height: 27px;
+    padding: 0 5px;
+}
+.article-header-icons span {
+    font-size: 27px;
+    padding: 0 5px;
+}
 /*----------------------------Article Body--------------------------------*/
 
 .article-body {
@@ -176,12 +231,13 @@ p {
 
 .article-footer-data {
     display: flex;
+    align-items: center;
     flex-direction: row;
     height: 50%;
+    padding-top: 20px;
 }
 .article-footer-btn {
-    width: 50%;
-    margin-top: 5px;
+    width: 55%;
 }
 
 .article-footer-btn button {
@@ -189,15 +245,26 @@ p {
     border: none;
     border-radius: 3px;
     color: white;
-    width: 200px;
-    height: 30px;
+    width: 100%;
+    height: 35px;
     font-weight: bold;
 }
 
 .article-footer-icons {
-    text-align: end;
-    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
 }
+.article-footer-icons span {
+    font-size: 27px;
+    padding: 0 10px;
+}
+
+.article-footer-icons a {
+    text-decoration: none;
+    color: #837d7d;
+}
+
 
 .article-footer-title h5, .article-footer-title a{
     color: rgb(138, 134, 134);
@@ -406,3 +473,5 @@ p {
     font-size: 12px;
     text-decoration: none;
 }
+
+
