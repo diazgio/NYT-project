@@ -1,4 +1,5 @@
 /* -----------------------General Styles-------------------------- */
+
 * {
   margin: 0;
 }
@@ -31,6 +32,7 @@ p {
 }
 
 /* -----------------------------Header------------------------------- */
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -67,12 +69,6 @@ p {
   width: 16px;
   height: 16px;
   padding: 8px 9px 9px 9px;
-}
-
-.header-menu:hover,
-.header-btns button:hover,
-.header-title:hover {
-  cursor: pointer;
 }
 
 /* --------------------------Main------------------------------ */
@@ -184,8 +180,6 @@ p {
   font-size: 27px;
   padding: 0 5px;
 }
-
-
 
 /* ----------------------------Article Body-------------------------------- */
 
@@ -318,11 +312,8 @@ p {
   height: 75px;
 }
 
-.picks-container-description a:hover {
-  text-decoration: underline;
-}
-
 /* -----------------------------Article Footer----------------------------- */
+
 .article-footer {
   text-align: start;
   margin: 10px 0 10px 0;
@@ -436,6 +427,7 @@ p {
 }
 
 /* -----------------Most popular list---------------------------------- */
+
 .most-popular {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -503,8 +495,8 @@ p {
   width: 232px;
 }
 
-
 /* ------------------------Footer------------------------------ */
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -552,11 +544,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   padding-bottom: 20px;
-}
-
-.footer-nav a:hover,
-.footer-disclaimer a:hover {
-  text-decoration: underline;
 }
 
 .footer-subscribe {
@@ -627,5 +614,20 @@ p {
 .article-header a:hover,
 .article-header-icons img:hover {
   text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-nav a:hover,
+.footer-disclaimer a:hover {
+  text-decoration: underline;
+}
+
+.picks-container-description a:hover {
+    text-decoration: underline;
+}
+
+.header-menu:hover,
+.header-btns button:hover,
+.header-title:hover {
   cursor: pointer;
 }
