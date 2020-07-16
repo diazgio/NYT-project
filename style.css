@@ -23,6 +23,13 @@
     text-align: center;
 }
 
+p {
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+
 /*-----------------------------Header-------------------------------*/
 .header-container {
     display: flex;
@@ -66,20 +73,17 @@
 /*--------------------------Main------------------------------*/
 
 .main-containner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1200px;
     border: 1px solid red;
-    float: left;
     text-align: center;
     margin: auto;
 }
 .article-container {
     margin: 20px 190px 0;
-}
-
-.editor-picks {
-    float: right;
-    border: 1px solid red;
-    margin-top: 100em;
+    clear: both;
 }
 
 .article-title-container {
@@ -123,6 +127,43 @@
 .article-body {
     text-align: justify;
     width: 600px;
+    padding: 10px 15% 10px 15%;
+}
+
+.video-container {
+    text-align: center;
+    width: 600px;
+    margin: 0;
+}
+
+/*-------------------------------Aside Editor's Picks-----------------------*/
+
+.editor-picks {
+    float: right;
+    border: 1px solid red;
+}
+
+.picks-header {
+    width: 130px;
+    border-bottom:  solid 1px #333333;
+    text-align: start;
+}
+
+.picks-header h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.picks-container {
+    display: flex;
+    padding: 5px;
+    width: 230px;
+    height: 98px;
+}
+
+.picks-container img {
+    width: 75px;
+    height: 75px;
 }
 
 /*-----------------------------Article Footer-----------------------------*/
@@ -130,6 +171,7 @@
     text-align: start;
     margin: 10px 0 10px 0;
     width: 600px;
+    clear: both;
 }
 
 .article-footer-data {
@@ -138,9 +180,20 @@
     height: 50%;
 }
 .article-footer-btn {
-    
     width: 50%;
+    margin-top: 5px;
 }
+
+.article-footer-btn button {
+    background-color: #567b95;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+
 .article-footer-icons {
     text-align: end;
     width: 50%;
