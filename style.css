@@ -178,6 +178,7 @@ p {
     font-size: 27px;
     padding: 0 5px;
 }
+
 /*----------------------------Article Body--------------------------------*/
 
 .article-body {
@@ -214,6 +215,10 @@ p {
     color: #505050;
 }
 
+.inflation-footer hr {
+    margin-left: 0;
+}
+
 .video-container {
     text-align: center;
     width: 600px;
@@ -238,16 +243,36 @@ p {
     line-height: normal;
     color: #979292;
 }
+
+
+.article-container hr {
+    margin-left: 460px;
+    width: 70px;
+}
+
+.unlock-articles {
+    padding: 20px 0;
+}
+
+.unlock-articles a {
+    text-decoration: none;
+    color: #567b95;
+    font-weight: bold;
+}
+
 /*-------------------------------Aside Editor's Picks-----------------------*/
 
 .editor-picks {
+    position: absolute;
+    right: 350px;
+    top: 1900px;
     float: right;
-    border: 1px solid red;
 }
 
 .picks-header {
-    width: 130px;
-    border-bottom:  solid 1px #333333;
+    width: auto;
+    padding: 10px;
+    border-bottom:  solid 1px #a39f9f;
     text-align: start;
 }
 
@@ -258,9 +283,27 @@ p {
 }
 .picks-container {
     display: flex;
+    align-items: center;
     padding: 5px;
     width: 230px;
     height: 98px;
+}
+
+.picks-container-description {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+.picks-container-description a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+}
+
+.picks-container-description a:hover {
+    text-decoration: underline;
 }
 
 .picks-container img {
