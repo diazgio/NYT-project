@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/diazgio/NYT-project/tree/feature-branch)
+[Live Demo Link]https://rawcdn.githack.com/diazgio/NYT-project/6ac51345c8edc5a1c950bd1eb02d06980eb6cfad/index.html)
 
 
 ## Getting Started
