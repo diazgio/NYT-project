@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'share-icon';
-  src:  url('fonts/share-icon.eot?u1aqoq');
-  src:  url('fonts/share-icon.eot?u1aqoq#iefix') format('embedded-opentype'),
+  src: url('fonts/share-icon.eot?u1aqoq');
+  src:
+    url('fonts/share-icon.eot?u1aqoq#iefix') format('embedded-opentype'),
     url('fonts/share-icon.ttf?u1aqoq') format('truetype'),
     url('fonts/share-icon.woff?u1aqoq') format('woff'),
     url('fonts/share-icon.svg?u1aqoq#share-icon') format('svg');
@@ -10,7 +11,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'share-icon' !important;
   speak: never;
@@ -25,15 +27,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-forward:before {
+.icon-forward::before {
   content: "\e900";
 }
-.icon-mail:before {
+
+.icon-mail::before {
   content: "\e901";
 }
-.icon-facebook-with-circle:before {
+
+.icon-facebook-with-circle::before {
   content: "\e902";
 }
-.icon-twitter:before {
+
+.icon-twitter::before {
   content: "\e903";
 }
