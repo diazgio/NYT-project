@@ -204,7 +204,7 @@ p {
   font-weight: bold;
 }
 
-/*---------------------------Inflation Table---------------------*/
+/* ---------------------------Inflation Table--------------------- */
 
 .inflation-header {
   text-align: start;
@@ -260,7 +260,7 @@ p {
   width: 100px;
 }
 
-/*--------------------------------Video Container---------------------*/
+/* --------------------------------Video Container--------------------- */
 
 .video-container {
   text-align: center;
@@ -275,7 +275,7 @@ p {
   color: #979292;
 }
 
-/*------------------------------Image Container---------------------------*/
+/* ------------------------------Image Container--------------------------- */
 
 .image-container {
   margin: auto;
@@ -436,7 +436,7 @@ p {
   text-align: start;
 }
 
-.img-description a{
+.img-description a {
   text-decoration: none;
   color: #333;
 }
@@ -632,7 +632,7 @@ p {
   text-decoration: none;
 }
 
-/*----------------------------Dynamic Footer--------------------*/
+/* ----------------------------Dynamic Footer-------------------- */
 
 .dynamic-footer-container {
   position: fixed;
@@ -679,6 +679,7 @@ p {
   padding: 5px 0 15px 35px;
   font-weight: bolder;
 }
+
 .dynamic-footer-btn img {
   width: 15px;
   height: 15px;
