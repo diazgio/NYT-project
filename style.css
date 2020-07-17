@@ -20,7 +20,7 @@
   clear: both;
   display: flex;
   flex-direction: column;
-  margin: 5px auto 5px auto;
+  margin: 5px auto 60px auto;
   width: 1200px;
   text-align: center;
 }
@@ -30,6 +30,10 @@ p {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   line-height: 2rem;
+}
+
+.flex {
+  display: flex;
 }
 
 /* -----------------------------Header------------------------------- */
@@ -608,6 +612,49 @@ p {
   color: gray;
   font-size: 12px;
   text-decoration: none;
+}
+
+/*----------------------------Dynamic Footer--------------------*/
+
+.dynamic-footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 45px;
+  background-color: white;
+  border-top: 1px solid black;
+}
+
+.dynamic-footer {
+  width: 100%;
+  padding: 5px 0 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dynamic-footer-data {
+  text-align: center;
+  width: 80%;
+}
+
+.dynamic-footer-data p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 510;
+}
+
+.dynamic-footer-btn {
+  text-align: end;
+  width: 20%;
+}
+
+.dynamic-footer-btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 200px 10px 0;
+  font-weight: bolder;
 }
 
 /* -------------hovers------------------------- */
