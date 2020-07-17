@@ -18,7 +18,6 @@
 
 .footer {
   clear: both;
-  display: flex;
   flex-direction: column;
   margin: 5px auto 60px auto;
   width: 1200px;
@@ -39,7 +38,6 @@ p {
 /* -----------------------------Header------------------------------- */
 
 .header-container {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 4px 15px 2px 15px;
@@ -79,7 +77,6 @@ p {
 /* --------------------------Main------------------------------ */
 
 .main-containner {
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 1200px;
@@ -149,7 +146,6 @@ p {
 }
 
 .article-header-data {
-  display: flex;
   align-items: center;
   margin: 20px 0 0 0;
 }
@@ -164,7 +160,6 @@ p {
 }
 
 .article-header-icons {
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 70%;
@@ -194,6 +189,23 @@ p {
   padding: 20px 20% 20px 19%;
 }
 
+.unlock-articles hr {
+  margin: 15px 0 15px 460px;
+  width: 70px;
+}
+
+.unlock-articles {
+  padding: 20px 0;
+}
+
+.unlock-articles a {
+  text-decoration: none;
+  color: #567b95;
+  font-weight: bold;
+}
+
+/*---------------------------Inflation Table---------------------*/
+
 .inflation-header {
   text-align: start;
   margin: 5px 0 10px 0;
@@ -221,7 +233,7 @@ p {
 }
 
 .inflation-module-containner {
-  height: 280px;
+  height: 288px;
   width: 228px;
 }
 
@@ -248,6 +260,8 @@ p {
   width: 100px;
 }
 
+/*--------------------------------Video Container---------------------*/
+
 .video-container {
   text-align: center;
   width: 600px;
@@ -261,6 +275,8 @@ p {
   color: #979292;
 }
 
+/*------------------------------Image Container---------------------------*/
+
 .image-container {
   margin: auto;
   width: 600px;
@@ -273,26 +289,11 @@ p {
   color: #979292;
 }
 
-.unlock-articles hr {
-  margin: 15px 0 15px 460px;
-  width: 70px;
-}
-
-.unlock-articles {
-  padding: 20px 0;
-}
-
-.unlock-articles a {
-  text-decoration: none;
-  color: #567b95;
-  font-weight: bold;
-}
-
 /* -------------------------------Aside Editor's Picks----------------------- */
 
 .editor-picks {
   position: absolute;
-  right: 7rem;
+  right: 4rem;
   top: 115rem;
   float: right;
 }
@@ -311,7 +312,6 @@ p {
 }
 
 .picks-container {
-  display: flex;
   align-items: center;
   padding: 5px;
   width: 230px;
@@ -319,7 +319,6 @@ p {
 }
 
 .picks-container-description {
-  display: flex;
   text-align: start;
   justify-content: flex-start;
   align-items: center;
@@ -347,7 +346,6 @@ p {
 }
 
 .article-footer-data {
-  display: flex;
   align-items: center;
   flex-direction: row;
   height: 50%;
@@ -369,7 +367,6 @@ p {
 }
 
 .article-footer-icons {
-  display: flex;
   justify-content: flex-end;
   width: 45%;
 }
@@ -402,7 +399,6 @@ p {
 }
 
 .more {
-  display: flex;
   flex-wrap: wrap;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -516,7 +512,6 @@ p {
 }
 
 .Editors-picks-videos {
-  display: flex;
   justify-content: space-evenly;
   height: 90%;
 }
@@ -528,14 +523,12 @@ p {
 /* ------------------------Footer------------------------------ */
 
 .nav-container {
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 0 0 10px 0;
 }
 
 .footer-title {
-  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding: 5px 0 5px 20px;
@@ -648,18 +641,22 @@ p {
   height: 45px;
   background-color: white;
   border-top: 1px solid black;
+  z-index: 99;
 }
 
 .dynamic-footer {
   width: 100%;
   padding: 5px 0 5px 20px;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.filler {
+  width: 25%;
 }
 
 .dynamic-footer-data {
   text-align: center;
-  width: 80%;
+  width: 50%;
+  align-items: center;
 }
 
 .dynamic-footer-data p {
@@ -669,8 +666,9 @@ p {
 }
 
 .dynamic-footer-btn {
-  text-align: end;
-  width: 20%;
+  width: 25%;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .dynamic-footer-btn a {
@@ -678,8 +676,13 @@ p {
   color: black;
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 200px 10px 0;
+  padding: 5px 0 15px 35px;
   font-weight: bolder;
+}
+.dynamic-footer-btn img {
+  width: 15px;
+  height: 15px;
+  padding: 5px 0 0 25px;
 }
 
 /* -------------hovers------------------------- */
