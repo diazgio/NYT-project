@@ -211,6 +211,26 @@ p {
   line-height: normal;
 }
 
+.inflation-picks-containner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.inflation-module-containner {
+  height: 280px;
+  width: 228px;
+}
+
+.inflation-module-containner img {
+  width: inherit;
+  height: 168px;
+  padding-bottom: 5px;
+}
+
 .inflation-footer {
   text-align: start;
   padding-top: 20px;
@@ -418,6 +438,11 @@ p {
 
 .img-description {
   text-align: start;
+}
+
+.img-description a{
+  text-decoration: none;
+  color: #333;
 }
 
 .img-description h6 {
